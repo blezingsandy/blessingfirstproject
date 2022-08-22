@@ -1,0 +1,109 @@
+.myExp{
+    background-color: hsl(98, 95%, 47%);
+}
+/* .myExp2{
+    background-color: hsl(98, 95%, 47%) ;
+
+} */
+.divider{
+    background-color: red;
+    width: 15%;
+    height: 7px;
+    margin:10px auto;
+}
+.card:hover{
+    color: green !important;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+     cursor: pointer;
+    
+}
+.card{
+    box-shadow: rgba(0,0,0,0.15) 1.95px 2.6px;
+}
+
+.nav-link{
+    color:#fff !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+color:green !important;
+font-weight: bold;
+}
+.about{
+    height: 70vh;
+    background-image: url(../images/unn6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.flx{
+    color: hsl(98, 95%, 47%);
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 20px; */
+}
+.mt{
+    color: white;
+    margin-left: 10%;
+    /* margin-top: 3%; */
+    
+}
+.down{
+    padding-top: 7%;
+}
+.graph{
+    min-height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url('../images/graphics2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intern{
+    opacity:(rgba(0,0,0,0.4));
+}
+.back{
+    min-height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('../images/babcock3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.myExp2{
+    background-color:whitesmoke;
+}
+@media screen and(max-width:480px) {
+    .carousel-item{
+    
+    }
+}
+.ESS{
+    color: hsl(98, 95%, 47%);
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: bold;
+}
+.table{
+    font-size: 25px;
+    padding-top: 5px;
+}
+.ess{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.trust{
+    padding-top: 20px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.trs{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: bold;
+}
